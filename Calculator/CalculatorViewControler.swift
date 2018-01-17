@@ -16,7 +16,7 @@ class CalculatorViewControler: UIViewController {
 
     @IBAction func onDigitPressed(_ sender: UIButton) {
         let digit = sender.currentTitle!
-        print("\(digit) pressed")
+        print("\(digit) touched")
 
         if isUserTyping {
             UILabelDisplay.text = UILabelDisplay.text! + digit
