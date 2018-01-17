@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class CalculatorViewControler: UIViewController {
 
     @IBOutlet weak var UILabelDisplay: UILabel!
     var isUserTyping = false
